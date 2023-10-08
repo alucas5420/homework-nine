@@ -1,0 +1,74 @@
+.background-props {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.tour-component {
+    height: $tour-banner-height;
+    width: $tour-banner-width;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .info-holder {
+        color: white;
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+.isreal-pic {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/bulb.png);   
+}
+
+.usa-pic {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/squirt.png);
+}
+
+.australia-pic {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/char.png);
+}
+
+.kanto-pic {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/Kanto.jpg);
+}
+
+.sinnoh-pic {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/Sinnog.png);
+}
+
+.alola-pic {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/alola.png);
+}
+
+.bdsp-pic {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/bdsp.png);
+}
+
+.legends-pic {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/legends.jpg);
+}
+
+.sv-pic {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/sv.png);
+}
+
+.cat-pic {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/cat.png);
+}
+
+.croc-pic {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/croc.png);
+}
+
+.duck-pic {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/duck.png);
+}
